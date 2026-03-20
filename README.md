@@ -1,5 +1,10 @@
 # waybar-power-consumption
 
+
+
+<img width="183" height="32" alt="image" src="https://github.com/user-attachments/assets/ddb5091b-42cb-4eb0-ad93-1fe5d0573d89" /> <img width="187" height="32" alt="image" src="https://github.com/user-attachments/assets/d67e4a76-3779-4516-add6-858e63cc4681" /> <img width="184" height="29" alt="image" src="https://github.com/user-attachments/assets/da098d20-d825-4795-ba6f-8786da335edf" />
+
+
 A tiny, dependency-light script that reports total system power draw (watts) in a JSON format suitable for waybar's `custom/script` module.
 
 - Script: `power.sh` — reads power from ACPI battery or CPU RAPL and prints JSON for waybar.
