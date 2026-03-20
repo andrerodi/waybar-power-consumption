@@ -39,6 +39,16 @@ A tiny, dependency-light script that reports total system power draw (watts) in 
 }
 ```
 
+4. Use inside a module
+
+```
+"modules-center": [
+  ...
+  "custom/power"
+  ...
+]
+```
+
 - `interval`: update frequency in seconds (10 is a reasonable start).
 - `return-type: "json"` tells waybar to parse the JSON the script prints.
 
