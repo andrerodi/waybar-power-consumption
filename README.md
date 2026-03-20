@@ -39,6 +39,29 @@ A tiny, dependency-light script that reports total system power draw (watts) in 
 }
 ```
 
+4. Use inside a module
+
+```
+"modules-center": [
+  ...
+  "custom/power"
+  ...
+]
+```
+
+5. Update style.css
+
+```
+/* Allow JSON color to apply as default */
+#custom-power { color: inherit; }
+
+/* Optional: explicitly assign colors based on class emitted by script */
+#custom-power.normal { color: #A8E6CF; }    /* ok (pastel green) */
+#custom-power.warning { color: #F6E27F; }   /* pastel yellow */
+#custom-power.critical { color: #FF9B9B; }  /* pastel red */
+#custom-power.unknown { color: #9E9E9E; }   /* grey */
+```
+
 - `interval`: update frequency in seconds (10 is a reasonable start).
 - `return-type: "json"` tells waybar to parse the JSON the script prints.
 
