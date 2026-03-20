@@ -1,0 +1,1 @@
+# waybar-power-consumption
